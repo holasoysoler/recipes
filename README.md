@@ -7,4 +7,4 @@ Recipe book for infrastructures
 
 ### Run the following command to retrieve the access credentials for your cluster and automatically configure kubectl.
 * aws eks --region $(terraform output -raw region) update-kubeconfig --name $(terraform output -raw cluster_name)
-  (The Kubernetes cluster name and region correspond to the output variables showed after the successful Terraform run)
+ #### (The Kubernetes cluster name and region correspond to the output variables showed after the successful Terraform run)
